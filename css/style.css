@@ -1,0 +1,172 @@
+.navbar {
+  display: inline-block;
+}
+#navlinks {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 20em;
+}
+#nav {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: white;
+}
+
+#navtitles{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-family: "Gill Sans";
+  font-size: 1.3em;
+}
+
+
+
+#logo {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232525;
+  padding-top: 0px;
+  background-color: #B1C1C7;
+}
+#slides {
+  display: none;
+  margin-top: -12px;
+}
+
+#slides .slidesjs-navigation {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+a.slidesjs-next, a.slidesjs-previous, a.slidesjs-play, a.slidesjs-stop {
+  background-image: url(img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 12px;
+  height: 18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 5px;
+}
+a.slidesjs-next {
+  margin-right: 10px;
+  background-position: -12px 0;
+}
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+a.slidesjs-play {
+  width: 15px;
+  background-position: -25px 0;
+}
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+a.slidesjs-stop {
+  width: 18px;
+  background-position: -41px 0;
+}
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+  margin-right: 5px;
+}
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(/img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+#slides a:link, #slides a:visited {
+  color: #333
+}
+#slides a:hover, #slides a:active {
+  color: #9e2020
+}
+.navbar {
+  overflow: hidden
+}
+
+#intro h4{
+  margin-left: 4em;
+  margin-right: 4em;
+  line-height: 150%;
+  font-family: "Gill Sans"
+}
+
+#intro h2 {
+  font-family: "Gill Sans";
+  text-align: center;
+}
+
+}
+.container {
+  margin: 0 auto
+}
+
+/* For tablets & smart phones */
+
+@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container {
+    width: auto
+  }
+}
+
+/* For smartphones */
+
+@media (max-width: 480px) {
+  .container {
+    width: auto
+  }
+}
+
+/* For smaller displays like laptops */
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px
+  }
+}
+
+/* For larger displays */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+}
